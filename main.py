@@ -1,5 +1,6 @@
 import discord
 import json
+import random
 from discord_slash import SlashCommand
 
 client = discord.Client(intents=discord.Intents.all(),
